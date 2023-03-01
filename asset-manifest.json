@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/morseWeb/static/css/main.7d274339.css",
+    "main.js": "/morseWeb/static/js/main.7b60ccb1.js",
+    "static/js/787.04dc5cbe.chunk.js": "/morseWeb/static/js/787.04dc5cbe.chunk.js",
+    "static/media/banner_mock_1.png": "/morseWeb/static/media/banner_mock_1.47c2ad7dcfefd6304c2e.png",
+    "static/media/slide_1.jpg": "/morseWeb/static/media/slide_1.6d987b53e2a2ec25e2c0.jpg",
+    "static/media/slide_2.jpg": "/morseWeb/static/media/slide_2.f264ffe9df033efa8db4.jpg",
+    "static/media/morse_logo.png": "/morseWeb/static/media/morse_logo.10ca9be491a4555a7c4e.png",
+    "static/media/settings.png": "/morseWeb/static/media/settings.a6fe2b7cb67bbcff902e.png",
+    "index.html": "/morseWeb/index.html",
+    "main.7d274339.css.map": "/morseWeb/static/css/main.7d274339.css.map",
+    "main.7b60ccb1.js.map": "/morseWeb/static/js/main.7b60ccb1.js.map",
+    "787.04dc5cbe.chunk.js.map": "/morseWeb/static/js/787.04dc5cbe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d274339.css",
+    "static/js/main.7b60ccb1.js"
+  ]
+}
