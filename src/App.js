@@ -3,14 +3,15 @@ import CustomNavbar from "./components/Navbar/CustomNavbar";
 
 // import Footer from "./components/Footer/Footer";
 import HomeScreen from "./screens/HomeScreen";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import ContactUsScreen from "./screens/ContactUsScreen";
 import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
+        {/*<BrowserRouter>*/}
         <CustomNavbar />
         <Routes style={{ flex: 1 }}>
           {/*<Route path='/' exact />*/}
@@ -24,7 +25,7 @@ function App() {
           {/* <Route path="/login" component={LoginScreen} />*/}
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }

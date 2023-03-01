@@ -1,5 +1,5 @@
 import "./PricingPlansContainer.css";
-import { Button, Card, Col, Container, Image, Row } from "react-bootstrap";
+import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import React from "react";
 
 const priceList = [
