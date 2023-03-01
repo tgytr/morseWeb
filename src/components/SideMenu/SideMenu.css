@@ -1,0 +1,12 @@
+.Side-nav {
+  /*contain: strict;*/
+  width: 100%;
+  background-color: red;
+}
+
+.Side-header {
+  contain: strict;
+  width: 100%;
+  padding: 10px;
+  background-color: red;
+}
