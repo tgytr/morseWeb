@@ -24,7 +24,7 @@ function App() {
       >
         {/*<Route path='/' exact />*/}
         <Route exact path="" element={<HomeScreen />} />
-        <Route path="/about" element={<AboutUsScreen />} />
+        <Route exact path="/about" element={<AboutUsScreen />} />
         <Route exact path="/contactus" element={<ContactUsScreen />} />
         {/*<Route path="/" element={<HomeScreen />} />*/}
         {/*<Route path="/" element={<HomeScreen />} />*/}
