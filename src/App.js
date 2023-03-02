@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import ContactUsScreen from "./screens/ContactUsScreen";
 import Footer from "./components/Footer/Footer";
+import AboutUsScreen from "./screens/AboutUsScreen";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
       >
         {/*<Route path='/' exact />*/}
         <Route exact path="" element={<HomeScreen />} />
-        {/*<Route path="/" element={<AboutUsScreen />} />*/}
+        <Route path="/about" element={<AboutUsScreen />} />
         <Route exact path="/contactus" element={<ContactUsScreen />} />
         {/*<Route path="/" element={<HomeScreen />} />*/}
         {/*<Route path="/" element={<HomeScreen />} />*/}
