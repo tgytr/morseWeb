@@ -14,7 +14,7 @@ function CustomNavbar() {
       style={{ padding: 0 }}
     >
       <Navbar.Brand
-        href="#home"
+        href="/home"
         style={{ backgroundColor: "#0f4cba", padding: 10 }}
       >
         <img alt="" src={navbarLogo} width="120" height="50" />
@@ -29,7 +29,7 @@ function CustomNavbar() {
           style={{ maxHeight: "350px" }}
           navbarScroll
         >
-          <Nav.Link href="/">Home</Nav.Link>
+          <Nav.Link href="/home">Home</Nav.Link>
           <Nav.Link href="/about">About Us</Nav.Link>
           <Nav.Link href="/services">Service</Nav.Link>
           <Nav.Link href="/contactus">Contact</Nav.Link>
