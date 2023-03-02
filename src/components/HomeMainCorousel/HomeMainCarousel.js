@@ -8,8 +8,9 @@ function HomeMainCarousel() {
     <Carousel>
       <Carousel.Item>
         <Image
+          fluid
           style={{
-            display: "flex",
+            objectFit: "cover",
             width: "auto",
             height: 800,
             alignContent: "center",
@@ -52,7 +53,7 @@ function HomeMainCarousel() {
       <Carousel.Item>
         <Image
           style={{
-            display: "flex",
+            objectFit: "cover",
             width: "auto",
             height: 800,
             alignContent: "center",
