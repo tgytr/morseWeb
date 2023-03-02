@@ -1,6 +1,7 @@
 import "./HomeMainCarousel.css";
 import { Button, Carousel, Image } from "react-bootstrap";
 import React from "react";
+import { Link } from "react-router-dom";
 
 function HomeMainCarousel() {
   return (
@@ -32,6 +33,8 @@ function HomeMainCarousel() {
             <br /> Retail Services
           </h2>
           <Button
+            as={Link}
+            to={"/contactus"}
             style={{
               backgroundColor: "#0f4cba",
               borderColor: "#0f4cba",

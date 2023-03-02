@@ -1,11 +1,9 @@
-// import CustomNavbar from "./../components/Navbar/CustomNavbar";
-import ServicesContainer from "./../components/ServicesContainer/ServicesContainer";
-// import Footer from "./../components/Footer/Footer";
+import ContactUsDetailsContainer from "../components/ContactUsDetails/ContactUsDetailsContainer";
 
 function ContactUsScreen() {
   return (
     <div>
-      <ServicesContainer />
+      <ContactUsDetailsContainer />
     </div>
   );
 }

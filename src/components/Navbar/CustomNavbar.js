@@ -2,6 +2,7 @@ import "./CustomNavbar.css";
 import { Navbar, Nav, Button } from "react-bootstrap";
 import React from "react";
 import navbarLogo from "../../assets/morse_logo.png";
+import { Link } from "react-router-dom";
 // import { Link } from "react-router-dom";
 
 function CustomNavbar() {
@@ -14,7 +15,7 @@ function CustomNavbar() {
       style={{ padding: 0 }}
     >
       <Navbar.Brand
-        href="/home"
+        href="/"
         style={{ backgroundColor: "#0f4cba", padding: 10 }}
       >
         <img alt="" src={navbarLogo} width="120" height="50" />
@@ -29,11 +30,21 @@ function CustomNavbar() {
           style={{ maxHeight: "350px" }}
           navbarScroll
         >
-          <Nav.Link href="/home">Home</Nav.Link>
-          <Nav.Link href="/about">About Us</Nav.Link>
-          <Nav.Link href="/services">Service</Nav.Link>
-          <Nav.Link href="/contactus">Contact</Nav.Link>
-          <Nav.Link href="/pricing">Pricing</Nav.Link>
+          <Nav.Link as={Link} to="/">
+            Home
+          </Nav.Link>
+          <Nav.Link as={Link} to="/about">
+            About Us
+          </Nav.Link>
+          <Nav.Link as={Link} to="/services">
+            Service
+          </Nav.Link>
+          <Nav.Link as={Link} to="/contactus">
+            Contact
+          </Nav.Link>
+          {/*<Nav.Link as={Link} to="/pricing">*/}
+          {/*  Pricing*/}
+          {/*</Nav.Link>*/}
         </Nav>
         <div
           className="d-flex"
@@ -44,6 +55,8 @@ function CustomNavbar() {
           }}
         >
           <Button
+            as={Link}
+            to={"/contactus"}
             style={{
               backgroundColor: "#0f4cba",
               borderColor: "#0f4cba",

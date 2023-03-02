@@ -33,7 +33,7 @@ const serviceList = [
 function ServicesContainer() {
   return (
     <Container style={{ paddingTop: 100, paddingBottom: 100 }}>
-      <Row xs={1} md={4} className="g-4">
+      <Row xs={1} md={3} sm={2} lg={4} className="g-4">
         {serviceList.map((item, index) => {
           console.log(item, "item");
           console.log(index, "index");
