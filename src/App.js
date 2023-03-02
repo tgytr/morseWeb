@@ -3,7 +3,12 @@ import CustomNavbar from "./components/Navbar/CustomNavbar";
 
 // import Footer from "./components/Footer/Footer";
 import HomeScreen from "./screens/HomeScreen";
-import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter,
+  // HashRouter,
+  Route,
+  Routes,
+} from "react-router-dom";
 import ContactUsScreen from "./screens/ContactUsScreen";
 import Footer from "./components/Footer/Footer";
 
