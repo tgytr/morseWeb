@@ -15,7 +15,8 @@ function CustomNavbar() {
       style={{ padding: 0 }}
     >
       <Navbar.Brand
-        href="/"
+        as={Link}
+        to="/"
         style={{ backgroundColor: "#0f4cba", padding: 10 }}
       >
         <img alt="" src={navbarLogo} width="120" height="50" />
